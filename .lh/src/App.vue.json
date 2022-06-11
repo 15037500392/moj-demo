@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/App.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1653921583560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653921769482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n .header{\n   width: 200px;\n   height: 200px;\n   background: pink;\n+  @include box-center('center','center');\n }\n #app {\n   font-family: Avenir, Helvetica, Arial, sans-serif;\n   -webkit-font-smoothing: antialiased;\n"
+                },
+                {
+                    "date": 1653921837005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n .header{\n   width: 200px;\n   height: 200px;\n   background: pink;\n-  @include box-center('center','center');\n+  @include box-center(center,center);\n }\n #app {\n   font-family: Avenir, Helvetica, Arial, sans-serif;\n   -webkit-font-smoothing: antialiased;\n"
+                }
+            ],
+            "date": 1653921583560,
+            "name": "Commit-0",
+            "content": "<template>\n  <div id=\"nav\">\n    <router-link to=\"/\">Home</router-link> |\n    <router-link to=\"/about\">About</router-link>\n  </div>\n\n<div class=\"header\">这是真的吗</div>\n  <!-- <router-view/> -->\n</template>\n\n<style lang=\"scss\">\n.header{\n  width: 200px;\n  height: 200px;\n  background: pink;\n}\n#app {\n  font-family: Avenir, Helvetica, Arial, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-align: center;\n  color: #2c3e50;\n}\n\n#nav {\n  padding: 30px;\n\n  a {\n    font-weight: bold;\n    color: #2c3e50;\n\n    &.router-link-exact-active {\n      color: #42b983;\n    }\n  }\n}\n</style>\n"
+        }
+    ]
+}

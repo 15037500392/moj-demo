@@ -3,10 +3,18 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+
+<div class="header">这是真的吗</div>
+  <!-- <router-view/> -->
 </template>
 
 <style lang="scss">
+.header{
+  width: 200px;
+  height: 200px;
+  background: pink;
+  @include box-center(center,center);
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1654046829176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1654046829176,
+            "name": "Commit-0",
+            "content": "import { createApp } from 'vue'\nimport App from './App.vue'\nimport router from './router'\nimport store from './store'\nimport 'normalize.css/normalize.css'\ncreateApp(App).use(store).use(router).mount('#app')\n"
+        }
+    ]
+}
